@@ -11,7 +11,7 @@
     }
      
      if($username == 'professor' && $password == 'professor'){
-         $_SESSION['login'] = TRUE;
+         $_SESSION['loggedin'] = TRUE;
          $_SESSION["username"] = 'professor';
           header("location: dashboard.php");
 
