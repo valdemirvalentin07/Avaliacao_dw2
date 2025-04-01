@@ -16,7 +16,7 @@
           header("location: dashboard.php");
 
      } else if ($username == 'biblio' && $password == 'biblio') {
-        $_SESSION['login'] = TRUE;
+        $_SESSION['loggedin'] = TRUE;
         $_SESSION["username"] = 'biblio';
          header("location: biblio.php");
 
