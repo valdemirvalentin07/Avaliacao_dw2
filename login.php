@@ -49,13 +49,10 @@
          <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         
           <label for="username">Username:</label>
-         <input type="text" name="username" class="form-control" value="" required>
-         <span class="help-block"></span>
+         <input type="text" name="username" class="form-control" value="" required> 
          <br><br/>
          <label for="password">Password:</label>
          <input type="password" name="password" class="form-control" value="" required>
-         <span class="help-block"></span>
-         <br> <br/>
          <div>
              <input type="submit" value="Entrar">
          </div>
