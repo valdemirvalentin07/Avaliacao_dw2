@@ -10,7 +10,7 @@
 
     
 
-
+<!-- Formulário de cadastro de livros -->
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"method="post">
         <label for="titulo do livro">Título do livro</label>
         <input type="text" name="titulo do livro" value="">
